@@ -1,0 +1,22 @@
+.text {
+  width: 21ch;
+  font-size: clamp(2rem, 3vw, 4rem);
+  overflow: hidden;
+  white-space: nowrap;
+  caret-color: transparent;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  animation: typing 1s steps(21);
+}
+@media screen and (min-width: 768px) {
+  .text {
+    width: 29ch;
+    animation: typing 1s steps(29);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
