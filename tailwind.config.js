@@ -24,6 +24,9 @@ module.exports = {
         property: '#AADAFA',
         number: '#BACDAB',
       },
+      fontSize: {
+        dynamic: 'clamp(2rem, 3vw, 4rem)',
+      },
     },
   },
   plugins: [],
