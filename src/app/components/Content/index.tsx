@@ -6,6 +6,7 @@ export const Content: FC = () => {
   return (
     <main className="flex min-h-[50vh] flex-col items-center">
       <Icon />
+      test
       <Fields />
     </main>
   );
