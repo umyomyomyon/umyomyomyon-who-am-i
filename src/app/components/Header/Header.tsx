@@ -5,7 +5,7 @@ import { useScrollAmount } from '@/app/hooks/useScrollAmount';
 
 export const Header: FC = () => {
   return (
-    <header className="grid place-content-center h-screen sticky z-0">
+    <header className="grid place-content-center h-screen sticky">
       <HeaderContent />
     </header>
   );
