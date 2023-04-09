@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import iconImage from '../../../public/icon.jpg';
+import iconImage from '../../assets/icon.jpg';
 
 export const Icon: FC = () => {
   return (
