@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Colon, Equal, Brace } from './symbols';
+import { Colon, Equal, Brace } from '../symbols';
 import { Caret } from './Caret';
 import styles from './text.module.css';
 
