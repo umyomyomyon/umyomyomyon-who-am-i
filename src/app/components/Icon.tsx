@@ -4,7 +4,7 @@ import iconImage from '../../../public/icon.jpg';
 
 export const Icon: FC = () => {
   return (
-    <div className="grid place-content-center place-items-center">
+    <div className="grid place-content-center place-items-center pb-8">
       <div className="w-6/12 sm:w-4/12 px-4">
         <Image
           alt="profile icon"
