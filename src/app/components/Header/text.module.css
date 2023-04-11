@@ -6,12 +6,12 @@
   caret-color: transparent;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  animation: typing 1s steps(21);
+  animation: typing 10s steps(21);
 }
 @media screen and (min-width: 768px) {
   .text {
     width: 29ch;
-    animation: typing 1s steps(29);
+    animation: typing 10s steps(29);
   }
 }
 
