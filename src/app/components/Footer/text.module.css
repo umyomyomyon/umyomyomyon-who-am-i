@@ -1,7 +1,0 @@
-.text {
-  width: 21ch;
-  font-size: clamp(2rem, 3vw, 4rem);
-  caret-color: transparent;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}

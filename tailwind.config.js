@@ -26,6 +26,7 @@ module.exports = {
       },
       fontSize: {
         dynamic: 'clamp(1.3rem, 2vw, 2rem)',
+        header: 'clamp(2rem, 3vw, 4rem)',
       },
     },
   },
