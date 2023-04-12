@@ -1,9 +1,10 @@
 import { FC } from 'react';
 import { KV } from '../Fields/KV';
+import { Skills } from '../Skills';
 
 export const Fields: FC = () => {
   return (
-    <ul className="list-none text-dynamic">
+    <ul className="list-none text-dynamic max-w-xl">
       <KV property="name" value={"'umyomyomyon'"} />
       <KV
         property="github"
@@ -26,15 +27,7 @@ export const Fields: FC = () => {
         }
       />
       <KV property="yearsOfExperience" value={<span className="text-number">3</span>} />
-      <KV
-        property="skills"
-        value={
-          <>
-            <span className="text-brackets">[</span> <span className="text-other">...</span>{' '}
-            <span className="text-brackets">]</span>
-          </>
-        }
-      />
+      <Skills />
     </ul>
   );
 };
