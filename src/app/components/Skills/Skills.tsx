@@ -12,17 +12,15 @@ export const Skills: FC = () => {
 
   return (
     <li className="my-5 caret-transparent">
-      <details className="cursor-pointer" onClick={handleClick}>
-        <summary className="list-none">
+      <details>
+        <summary className="list-none cursor-pointer" onClick={handleClick}>
           <span className="text-property">skills</span>
           <Colon /> <SkillsValue isOpen={isOpen} />
-          {isOpen && (
-            <>
-              <SkillsContent skills={skills} />
-              <span className="text-brackets">]</span>
-            </>
-          )}
         </summary>
+        <>
+          <SkillsContent skills={skills} />
+          <span className="text-brackets">]</span>
+        </>
       </details>
     </li>
   );
