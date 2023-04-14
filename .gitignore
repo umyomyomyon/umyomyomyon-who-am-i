@@ -37,3 +37,8 @@ next-env.d.ts
 /.vscode/
 
 .node_version
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
