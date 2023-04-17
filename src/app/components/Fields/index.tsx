@@ -26,6 +26,7 @@ export const Fields: FC = () => {
           </span>
         }
       />
+      <KV property="currentJob" value="'front-end engineer'" />
       <KV property="yearsOfExperience" value={<span className="text-number">3</span>} />
       <KV
         property="src"
